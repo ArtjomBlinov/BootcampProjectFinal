@@ -24,10 +24,12 @@ The platform consists of three main components:
 ## Setup and Installation 
 To set up the project locally, navigate to the main project folder in your terminal and follow these steps:
 
+```bash
+# The path may be different depending on where you unzipped the file
+cd ~/Downloads/BootcampProjectFinal-main
+
 **1. Create and Activate a Virtual Environment**
 A virtual environment keeps your project's dependencies separate from other Python projects.
-
-cd ~/Downloads/BootcampProjectFinal-main
 
 * **Windows:**
     ```bash
@@ -76,7 +78,12 @@ In a second terminal (from the project's root directory), run:
 ```bash
 python app/dash_app.py
 ```
+Mac/Linux
+```bash
+python3 app/dash_app.py
+```
 The dashboard will be available at `http://127.0.0.1:8050`.
 
 
 Open **`http://127.0.0.1:8050`** in your web browser to use the application.
+
