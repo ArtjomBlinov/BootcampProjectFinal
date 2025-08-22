@@ -27,6 +27,8 @@ To set up the project locally, navigate to the main project folder in your termi
 **1. Create and Activate a Virtual Environment**
 A virtual environment keeps your project's dependencies separate from other Python projects.
 
+cd ~/Downloads/BootcampProjectFinal-main
+
 * **Windows:**
     ```bash
     python -m venv venv
@@ -75,5 +77,6 @@ In a second terminal (from the project's root directory), run:
 python app/dash_app.py
 ```
 The dashboard will be available at `http://127.0.0.1:8050`.
+
 
 Open **`http://127.0.0.1:8050`** in your web browser to use the application.
