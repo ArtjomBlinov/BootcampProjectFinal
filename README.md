@@ -76,7 +76,7 @@ uvicorn app.main:app --reload
 The API will be available at http://127.0.0.1:8000.
 
 2. Start the Frontend Dashboard
-In your second terminal, run the command for your operating system:
+In your second terminal, run the command for your operating system(this step ypu should do in virtual system and root in which you was when do Backend API):
 
 Windows:
 
@@ -91,3 +91,4 @@ python3 app/dash_app.py
 The dashboard will be available at http://127.0.0.1:8050.
 
 Open http://127.0.0.1:8050 in your web browser to use the application.
+
