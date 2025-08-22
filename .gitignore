@@ -1,0 +1,6 @@
+# Environment variables - DO NOT UPLOAD
+app/.env
+
+# Python virtual environment
+venv/
+__pycache__/
